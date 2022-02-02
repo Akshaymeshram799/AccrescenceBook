@@ -1,0 +1,48 @@
+.image{
+    width: 327px;
+    height: 496px;
+}
+
+.bookMainC{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookCover{
+    border: 2px solid white;
+    width: 330px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.pageBorder{
+    border: 2px solid white;
+    z-index: 80;
+}
+
+.bookInfo{
+    display: flex;
+    margin-top: 1rem;
+    
+}
+
+.bookInfo p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 3px;
+    color: white;
+    padding:0 3px;
+    
+}
+
+.bookInfo button{
+    height: 38px;
+    width: 80px;
+    background: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 4px solid #03062C;
+}
